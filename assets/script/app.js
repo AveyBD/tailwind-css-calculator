@@ -14,25 +14,24 @@ function display(n) {
 }
 
 // making the calculaton 
-function calc(){
-    try{
+function calc() {
+    try {
         document.getElementById('outputScreen').innerText = eval(document.getElementById('outputScreen').innerText);
-    }
-    catch{
+    } catch {
         document.getElementById('outputScreen').innerText = 'আমি ক্যালকুলটর হইলেও মানুষ ভাই!';
     }
 }
 
 // Keyboard Enable 
 document.addEventListener("keydown", key, false);
-function key(e){
+
+function key(e) {
     var keynum;
-  
-    if(window.event) { // IE                  
-      keynum = e.keyCode;
-    } else if(e.which){ // Netscape/Firefox/Opera                 
-      keynum = e.which;
+    if (window.event) {
+        keynum = e.keyCode;
+    } else if (e.which) {
+        keynum = e.which;
     }
     console.log(String.fromCharCode(keynum));
     display(String.fromCharCode(keynum));
-  }
+}
