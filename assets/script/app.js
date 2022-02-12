@@ -1,4 +1,5 @@
 // setting C to clear LCD 
+
 function clr() {
     document.getElementById('outputScreen').value = '';
 }
