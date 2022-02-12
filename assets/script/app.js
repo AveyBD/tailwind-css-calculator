@@ -1,8 +1,7 @@
 // setting C to clear LCD 
 function clear() {
-    document.getElementById('outputScreen').value = 0;
+    console.log('Halum');
 }
-
 
 // Del button 
 function del() {
@@ -11,4 +10,9 @@ function del() {
 // Making button works 
 function display(n) {
     document.getElementById('outputScreen').value += n;
+}
+
+// making the calculaton 
+function calc(){
+    document.getElementById('outputScreen').value = eval(document.getElementById('outputScreen').value);
 }
