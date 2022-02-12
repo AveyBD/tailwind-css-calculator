@@ -739,3 +739,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow-color: #fff;
   --tw-shadow: var(--tw-shadow-colored);
 }
+
+.hover\:border-0:hover {
+  border-width: 0px;
+}
