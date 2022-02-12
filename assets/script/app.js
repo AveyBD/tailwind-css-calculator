@@ -15,5 +15,10 @@ function display(n) {
 
 // making the calculaton 
 function calc(){
-    document.getElementById('outputScreen').value = eval(document.getElementById('outputScreen').value);
+    try{
+        document.getElementById('outputScreen').value = eval(document.getElementById('outputScreen').value);
+    }
+    catch{
+        document.getElementById('outputScreen').value = 'আমি ক্যালকুলটর হইলেও মানুষ ভাই!';
+    }
 }
