@@ -16,30 +16,48 @@
     <header>
 
     </header>
-    <main class="min-h-screen bg-gray-700">
-        <h2 class="text-xl text-center font-bold">Simple Calculator</h2>
-        <div class="flex items-center justify-center">
-            <input type="text" name="" id="" placeholder="0">
-            <button class="rounded border-solid border-gray-500 bg-red-200 px-2" onclick="clear()">C</button>
-            <button class="rounded border-solid border-gray-500 bg-red-200 px-2" onclick="del()">Del</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('%')">%</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('/')">/</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('7')">7</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('8')">8</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('9')">9</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('*')">*</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('4')">4</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('5')">5</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('6')">6</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('-')">-</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('1')">1</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('2')">2</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('3')">3</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('+')">+</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('.')">.</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="display('0')">0</button>
-            <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="calc()">=</button>
-
+    <main class="bg-slate-100">
+        <div class="flex justify-center items-center min-h-screen">
+            <div class="p-4 border border-solid shadow-white border-white-400 bg-slate-300">
+                <input type="text" name="" id="" placeholder="0" class="mb-5 p-5 font-extrabold rounded-xl">
+                <div class="grid grid-cols-4 gap-4">
+                    <button class="rounded border-solid border-gray-500 bg-red-200 px-2" onclick="clear()">C</button>
+                    <button class="rounded border-solid border-gray-500 bg-red-200 px-2" onclick="del()">Del</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('%')">%</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('/')">/</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('7')">7</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('8')">8</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('9')">9</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('*')">*</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('4')">4</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('5')">5</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('6')">6</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('-')">-</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('1')">1</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('2')">2</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('3')">3</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('+')">+</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('.')">.</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2"
+                        onclick="display('0')">0</button>
+                    <button class="rounded border-solid border-gray-500 bg-green-200 px-2" onclick="calc()">=</button>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
