@@ -22,7 +22,7 @@ function calc() {
     }
 }
 
-// Keyboard Enable 
+// Enable Keyboard Input
 document.addEventListener("keydown", key, false);
 
 function key(e) {
