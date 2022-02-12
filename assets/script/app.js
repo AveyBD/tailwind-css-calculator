@@ -1,6 +1,6 @@
 // setting C to clear LCD 
-function clear() {
-    console.log('Halum');
+function clr() {
+    document.getElementById('outputScreen').value = '';
 }
 
 // Del button 
